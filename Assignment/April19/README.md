@@ -22,6 +22,16 @@
 
 #### 1. Input two numbers and display their sum
 
+``` md 
+> Algorithm
+
+1. Start 
+2. Read a & b
+3. sum = a + b
+4. print sum
+5. stop
+```
+
 ```c
 #include <stdio.h>
 
@@ -40,6 +50,16 @@ int main() {
 ```
 
 #### 2. Input principal, time, rate, display simple interest
+
+``` md 
+> Algorithm
+
+1. Start 
+2. Read p, t and r
+3. calculate si using SI = P x T x R
+4. print SI
+5. stop
+```
 
 ```c
 #include <stdio.h>
@@ -66,6 +86,16 @@ int main() {
 
 #### 3. Enter any marks in any four subjects and display the total and average.
 
+``` md 
+> Algorithm
+
+1. Start 
+2. Read 4 marks using array and loop
+3. calculate average and total 
+4. print average and total
+5. stop
+```
+
 ```c
 #include <stdio.h>
 
@@ -88,6 +118,16 @@ int main() {
 ```
 
 #### 4. Enter the length, breadth, and height of a room and calculate its volume.
+
+``` md 
+> Algorithm
+
+1. Start 
+2. Read length, breath & height of room
+3. volume = length x breath x height
+4. print volume
+5. stop
+```
 
 ```c
 #include <stdio.h>
@@ -112,6 +152,16 @@ int main() {
 
 #### 5. Enter the length and breadth of a room and calculate its area.
 
+``` md 
+> Algorithm
+
+1. Start 
+2. Read lenght & breath
+3. area = length x breath
+4. print area
+5. stop
+```
+
 ```c
 #include <stdio.h>
 
@@ -133,6 +183,16 @@ int main() {
 
 #### 6. Enter the radius of a circle and calculate its area
 
+``` md 
+> Algorithm
+
+1. Start 
+2. Read radius
+3. area = PI x r x r
+4. print area
+5. stop
+```
+
 ```c
 #include <stdio.h>
 #define PI 3.14
@@ -152,6 +212,16 @@ int main() {
 ```
 
 #### 7. Enter the radius and height of the sphere and calculate its volume.
+
+``` md 
+> Algorithm
+
+1. Start 
+2. Read radius & height
+3. volume = 4 / 3 x PI x r x r x r
+4. print volume
+5. stop
+```
 
 ```c
 #include <stdio.h>
@@ -173,6 +243,16 @@ int main() {
 
 #### 8. Enter the length of a square and calculate its area.
 
+``` md 
+> Algorithm
+
+1. Start 
+2. Read length of square
+3. area = length x length
+4. print area
+5. stop
+```
+
 ```c
 #include <stdio.h>
 
@@ -191,6 +271,16 @@ int main() {
 ```
 
 #### 9. Enter the base and height of a trangle and calculate its area
+
+``` md 
+> Algorithm
+
+1. Start 
+2. Read base & height
+3. area = ( base x height ) / 2
+4. print area
+5. stop
+```
 
 ```c
 #include <stdio.h>
@@ -212,6 +302,17 @@ int main() {
 ```
 
 #### 10. Enter the three sides of a triangle and calculate its area
+
+``` md 
+> Algorithm
+
+1. Start 
+2. Read 3 sides
+3. semiperimeter =  (sideOne + sideTwo + sideThree) / 2;
+4. calculate area
+5. print area
+6. stop
+```
 
 ```c
 #include <stdio.h>
@@ -238,6 +339,16 @@ int main() {
 
 #### 11. Input the distance in kilometers and convert it into meters
 
+``` md 
+> Algorithm
+
+1. Start 
+2. Read distance in kilometers
+3. distInMeter = distInKilometer x 1000
+4. print distInMeter
+5. stop
+```
+
 ```c
 #include <stdio.h>
 
@@ -254,6 +365,16 @@ int main() {
 ```
 
 #### 12. Input weight in grams and convert it into kilogram
+
+``` md 
+> Algorithm
+
+1. Start 
+2. Read weight in grams 
+3. weightInKilograms = weightInGrams / 1000
+4. print weightInKilograms
+5. stop
+```
 
 ```c
 #include <stdio.h>
@@ -273,6 +394,16 @@ int main() {
 ```
 
 #### 13. Enter two floating-point numbers and display their average
+
+``` md 
+> Algorithm
+
+1. Start 
+2. Read a & b
+3. average = (a + b) / 2
+4. print average
+5. stop
+```
 
 ```c
 #include <stdio.h>
