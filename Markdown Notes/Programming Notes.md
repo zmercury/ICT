@@ -1,6 +1,6 @@
 # Notes
 
-## 4/12
+## April 12
 
 Write and draw flowchart and write c program to find the input two numbers and display their product.
 
@@ -21,7 +21,7 @@ Write an algorithm, draw flowchart and write c program to :
 - C Program
 
 
-## 4 /21
+## April 21
 
 ### Use of constant
 
@@ -46,7 +46,8 @@ int main() {
 
 ```c
 #include <stdio.h>
-#define PI 3.14
+#define PI 3.14 
+//Defining PI on top allows us to use its value in multiple function
 
 int main() {
     int radius, height, volume;
@@ -64,10 +65,6 @@ int main() {
     return 0;
 }
 ```
-
-### April 22
-#### Histroy of Operating System
-
 
 
 
