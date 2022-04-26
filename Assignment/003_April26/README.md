@@ -8,3 +8,37 @@ Excel was orginally code name Odyssey during development. It was first
 
 ### Programming
 
+
+#### Syntax
+
+``` c 
+if ( condition) {
+    statement....
+} else {
+    statement....
+}
+```
+
+#### if....else.... statement
+
+Here, the condition is tested and if condition is true then one hock of code is executed, otherwise another block of code is excuted. 
+
+```c 
+#include <stdio.h>
+
+int main() {
+    int age;
+    printf("Enter the age: ");
+    scanf("%d", &age );
+
+    if ( age > 18) {
+        printf("You can vote!");
+    } else {
+        printf("You cannot vote!");
+    }
+    return 0;
+}
+
+```
+
+
