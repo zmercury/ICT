@@ -24,7 +24,7 @@ int main() {
 }
 ```
 
-### Assignment
+### Assignment ( if statement )
 
 #### 1. WAP to enter the percentage and check if you got distinction!
 
@@ -103,7 +103,7 @@ int main () {
   printf("Enter the speed of the rider: ");
   scanf("%d", &currentSpeed);
 
-  if ( currentSpeed > 50 ) {
+  if ( currentSpeed > speedLimit ) {
     printf("Rider is breaking the traffic rules!");
   } else {
     printf("Rider is following the traffic rules! ");
