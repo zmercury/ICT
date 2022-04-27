@@ -1,5 +1,11 @@
 ## April 27
 
+## ICT
+
+> Class nai bhayena 🤣🤣
+
+## Programming
+
 ### Assignment
 
 #### 1. WAP to enter marks of 3 subjecs and check if you are passed or not assume pass marks is 40.
