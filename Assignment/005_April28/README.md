@@ -20,6 +20,7 @@ if (condition) {
 
 #### 1. Wap to input the percentage and find out what you got in the exam!
 ``` md 
+> conditions
 percentage > 80  = distinction
 percentage > 60 = first division
 percentage > 40 = second division
