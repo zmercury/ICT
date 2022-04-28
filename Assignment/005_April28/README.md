@@ -19,13 +19,13 @@ if (condition) {
 ```
 
 #### 1. Wap to input the percentage and check if you got
-``` md 
-distinction
-first division
-second division
-third division
-failed
-```
+
+| Criteria | Result |
+| ---------| --------|
+| Percentage > 80| Distinction|
+| Percentage > 60 | First Division |
+| Percentage > 40 | Third Division |
+| Percentage < 30 | Failed|
 
 ``` c
 #include <stdio.h>
@@ -83,6 +83,41 @@ int main() {
     } else {
         printf("Error!");
     }
+
+    return 0;
+}
+```
+
+#### 3. WAP to input the sales amount and calculate the commission on the basis of given criteria.
+
+
+| Criteria | Commission |
+| ---------| --------|
+|Sales Amount >= 500000| 10%|
+|Sales Amount >= 300000| 3%|
+|Sales Amount >= 100000| 1%|
+| Less than 100000 | 0.5% |
+
+``` c
+#include <stdio.h>
+
+int main() {
+    int salesAmount, commission;
+
+    printf("Enter the sales amount: ");
+    scanf("%d", &salesAmount);
+
+    if (salesAmount >= 500000) {
+        commission = ((10 / 100) * salesAmount);
+    } else if (salesAmount >= 300000 && salesAmount < 500000) {
+        commission = ((3 / 100) * salesAmount);
+    } else if (salesAmount >= 100000 && salesAmount < 300000) {
+        commission = ((1 / 100) * salesAmount);
+    } else {
+        commission = ((0.5 / 100) * salesAmount);
+    }
+
+    printf("The commission amount is %d\n", commission);
 
     return 0;
 }
