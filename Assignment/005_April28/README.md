@@ -18,34 +18,72 @@ if (condition) {
 }
 ```
 
-#### 1. Wap to input the percentage and find out what you got in the exam!
+#### 1. Wap to input the percentage and check if you got
 ``` md 
-> conditions
-percentage > 80  = distinction
-percentage > 60 = first division
-percentage > 40 = second division
-percentage lower than 40 = failed
+distinction
+first division
+second division
+third division
+failed
 ```
 
 ``` c
 #include <stdio.h>
 
 int main() {
-    int percentage;
+    float percentage;
 
     printf("Enter your percentage: ");
-    scanf("%d", &percentage);
+    scanf("%f", &percentage);
 
-    if(percentage >= 80) {
+    if(percentage >= 80 && percentage <=100) {
         printf("You got distinction!");
-    } else if (percentage >=60) {
+    } else if (percentage >=60 && percentage < 80) {
         printf("You got first division!");
-    } else if (percentage >= 40) {
+    } else if (percentage >= 40 && percentage < 60) {
         printf("You got second division!");
+    } else if (percentage >= 30 && percentage < 40) {
+        printf("You got third division!");
+    } else if (percentage > 100 ) {
+        printf("Percentage cannot be above 100!");
     } else {
         printf("You failed the exam!");
     }
     
+    return 0;
+}
+```
+
+#### 2. WAP to input temprature and check if it is as given below:
+
+| Criteria | Result |
+| ---------| --------|
+| Temprature >=45| Very Hot|
+|Temprature >=30 | Hot |
+| Temprature >=15 | Mild |
+|Temprature > 15 | cold|
+
+```c
+#include <stdio.h>
+
+int main() {
+    float temprature;
+
+    printf("Enter the temprature of the day: ");
+    scanf("%f", &temprature);
+
+    if ( temprature >= 45 ) {
+        printf("Very Hot!");
+    } else if( temprature >= 30) {
+        printf("Hot!");
+    } else if ( temprature >= 15) {
+        printf("Mild!");
+    } else if ( temprature > 15) {
+        printf("Cold!");
+    } else {
+        printf("Error!");
+    }
+
     return 0;
 }
 ```
