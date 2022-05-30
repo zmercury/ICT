@@ -4,4 +4,4 @@
 #### 👉  CS Assignments: [Click Here](/Markdown%20Assignment)
 
 
-###### Copyright (c) 2022 Mercury
+###### Copyright (c) 2022 Mercury / Jupiter
