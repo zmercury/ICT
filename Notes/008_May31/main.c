@@ -1,24 +1,17 @@
-// input 3 number from user and find the greatest one!
-
 #include <stdio.h>
-int main() 
-{
-    int a, b, c;
-    printf("Enter a, b and c \t");
-    scanf(" %d %d %d", &a, &b, &c);
-    if(a>b){
-        if(a>c){
-            printf("%d is the greatest number", a);
-        } else {
-            printf("%d is the greatest number",c);
-        }
+
+int main() {
+    int num;
+
+    printf("Enter a number: ");
+    scanf("%d", &num);
+
+    if ( num == 0) {
+        printf("%d is neutral number!", num);
+    } else if (num % 2 == 0) {
+        printf("%d is even number!", num);
     } else {
-        if (b>c) {
-            printf("%d is the greatest number",b);
-        } else {
-            printf("%d is the greatest number",c);
-        } 
+        printf("%d is an odd number!", num);
     }
-    
     return 0;
 }

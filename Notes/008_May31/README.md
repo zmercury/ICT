@@ -30,3 +30,45 @@ int main()
 }
 
 ```
+
+
+
+``` c
+//Wap to input a number and find if it is perfectly divisible by 10
+
+#include <stdio.h>
+
+int main() {
+    int number;
+
+    printf("Enter a number: ");
+    scanf("%d", &number);
+
+    if (number % 10 == 0) {
+        printf("%d is perfectly divisible by 10!", number);
+    } else {
+        printf("%d is not perfectly divisible by 10!", number);
+    }
+    return 0;
+}
+```
+
+```c
+#include <stdio.h>
+
+int main() {
+    int num;
+
+    printf("Enter a number: ");
+    scanf("%d", &num);
+
+    if ( num == 0) {
+        printf("%d is neutral number!", num);
+    } else if (num % 2 == 0) {
+        printf("%d is even number!", num);
+    } else {
+        printf("%d is an odd number!", num);
+    }
+    return 0;
+}
+```
