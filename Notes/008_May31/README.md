@@ -4,7 +4,7 @@
 ## Programming
 
 ``` c
-// input 3 number from user and find the greatest one! (Biraj Lamichhane)
+// input 3 number from user and find the greatest one! (Biraj Sifal Lamichhane)
 
 #include <stdio.h>
 int main() 
