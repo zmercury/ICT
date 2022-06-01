@@ -39,8 +39,6 @@ int main() {
 
 ### Assignment
 
-1. Define loop? Define for loop with syntax
-1. Differenciate between if... else if...... and switch case statements
 
 ```c
 //1. Write a program to display your name 5 times
@@ -96,3 +94,13 @@ int main() {
     return 0;
 }
 ```
+
+4. Define loop? Define for loop with syntax
+> Loop is the process of repeatedly executing some block of code until the given condition satisfies.
+
+5. Differenciate between if... else if...... and switch case statements
+
+| if statement | if else statement | switch statement |
+| ------------ | ----------------- | ---------------- |
+| An if statement is a programming conditional statement that, if proved true, performs a function or displays information. | Else if statements is the programming conditional statement that comes after if statement which performs function if it is proved to be true | A switch statement is a type of selection control mechanism used to allow the value of a variable or expression to change the control flow of program execution via search and map. |
+|If statement doesnot require a choice to perform a tast | Else If statement doesnot require a case to perform a tast | Switch Statement requires a choice to operate |
