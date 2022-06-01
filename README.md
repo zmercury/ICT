@@ -1,7 +1,7 @@
 ### This is an Unofficial Repo. for BICT First Semester Sano Thimi Campus!
 
 
-#### 👉  CS Assignments: [Click Here](/Markdown%20Assignment)
+➡️ Notes:  [Click Here]('https://github.com/zmercury/ICT/tree/main/Notes')
 
 
 ###### Copyright (c) 2022 Mercury / Jupiter
