@@ -1,15 +1,15 @@
 #include <stdio.h>
 
 int main() {
-    int num;
+    int num1, num2;
 
-    printf("Enter a number: ");
-    scanf("%d", &num);
+    printf("Enter any two number: ");
+    scanf("%d %d", &num1, &num2);
 
-    if (num % 20 == 0) {
-        printf("The number is exaclty divisible by 20!");
+    if (num1 > num2) {
+        printf("%d is greater than %d", num1, num2);
     } else {
-        printf("The number is not exaclty divisible by 20!");
+        printf("%d is greater than %d", num2, num1);
     }
 
     return 0;

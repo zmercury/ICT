@@ -39,13 +39,12 @@ int main() {
 
 ### Assignment
 
-1. Write a program to display your name 5 times
-1. Write a program to enter a number and display if it is exactly divisible bt 20 or not
-1. Write a program to enter two numbers and display the greatest one
 1. Define loop? Define for loop with syntax
 1. Differenciate between if... else if...... and switch case statements
 
 ```c
+//1. Write a program to display your name 5 times
+
 #include <stdio.h>
 
 int main() {
@@ -57,6 +56,8 @@ int main() {
 ```
 
 ```c
+//2. Write a program to enter a number and display if it is exactly divisible bt 20 or not
+
 #include <stdio.h>
 
 int main() {
@@ -75,3 +76,23 @@ int main() {
 }
 ```
 
+```c
+//3. Write a program to enter two numbers and display the greatest one
+
+#include <stdio.h>
+
+int main() {
+    int num1, num2;
+
+    printf("Enter any two number: ");
+    scanf("%d %d", &num1, &num2);
+
+    if (num1 > num2) {
+        printf("%d is greater than %d", num1, num2);
+    } else {
+        printf("%d is greater than %d", num2, num1);
+    }
+
+    return 0;
+}
+```
