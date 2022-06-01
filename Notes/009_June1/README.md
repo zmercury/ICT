@@ -16,6 +16,6 @@ For loop is the entry control loop. It uses the *for* keyword and the initializa
 
 ``` c
 for (initialization; condition; increment/decrement) {
-    
+    body of loop
 }
 ```
