@@ -36,3 +36,42 @@ int main() {
     return 0;
 }
 ```
+
+### Assignment
+
+1. Write a program to display your name 5 times
+1. Write a program to enter a number and display if it is exactly divisible bt 20 or not
+1. Write a program to enter two numbers and display the greatest one
+1. Define loop? Define for loop with syntax
+1. Differenciate between if... else if...... and switch case statements
+
+```c
+#include <stdio.h>
+
+int main() {
+    for (int i = 1; i <= 10; i++) {
+        printf("Nikhil\n");
+    }
+    return 0;
+}
+```
+
+```c
+#include <stdio.h>
+
+int main() {
+    int num;
+
+    printf("Enter a number: ");
+    scanf("%d", &num);
+
+    if (num % 20 == 0) {
+        printf("The number is exaclty divisible by 20!");
+    } else {
+        printf("The number is not exaclty divisible by 20!");
+    }
+
+    return 0;
+}
+```
+
