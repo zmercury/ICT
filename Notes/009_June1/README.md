@@ -19,3 +19,20 @@ for (initialization; condition; increment/decrement) {
     body of loop;
 }
 ```
+
+#### Example of the loop
+
+``` c 
+//Program to display my college name 10 times
+
+#include <stdio.h>
+
+int main() {
+
+    for (int i = 1; i <= 10; i++) {
+        printf("%d. Sano Thimi Campus!\n", i);
+    }
+
+    return 0;
+}
+```
