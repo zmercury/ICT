@@ -54,6 +54,7 @@ int main() {
 ```
 
 ```c
+//Wap to enter a number and check if it is even odd or neutral.
 #include <stdio.h>
 
 int main() {
@@ -68,6 +69,63 @@ int main() {
         printf("%d is even number!", num);
     } else {
         printf("%d is an odd number!", num);
+    }
+    return 0;
+}
+```
+
+``` c
+//Wap to enter three number and display their average
+
+#include <stdio.h>
+
+int main() {
+    int a, b, c, average;
+
+    printf("Enter any three number: ");
+    scanf("%d %d %d", &a, &b, &c);
+
+    average = (a + b + c) / 2;
+
+    printf("The average is %d", average);
+
+    return 0;
+}
+```
+
+```c
+//Wap to enter two number and find their sum, difference and multiplication using switch!
+
+#include <stdio.h>
+
+int main() {
+    int choice, a, b;
+
+    printf("Enter any 2 numbers: ");
+    scanf("%d %d", &a, &b);
+
+    printf("Enter 1 for addition!\n");
+    printf("Enter 2 for substraction\n");
+    printf("Enter 3 for multiplication\n");
+    scanf("%d", &choice);
+
+    switch (choice) {
+        case 1: {
+            printf("Sum = %d", a + b);
+            break;
+        }
+        case 2: {
+            if (a>b) {
+                printf("Differences: %d", a - b);
+            } else {
+                printf("Differences: %d", b - a);
+            }
+            break;
+        }
+        case 3: {
+            printf("Multiplication: %d", a * b);
+        }
+            break;
     }
     return 0;
 }
