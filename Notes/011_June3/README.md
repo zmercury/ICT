@@ -12,7 +12,24 @@
 ```c
 while(condition) {
     //body of the loop
-    increment/decrement;
+    //increment/decrement;
+}
+```
+
+```c
+//Example
+
+#include <stdio.h>
+
+int main() {
+    int i = 1;
+
+    while (i<=5) {
+        printf(" %d Sanothimi Campus \n", i);
+        i++;
+    }
+
+    return 0;
 }
 ```
 
@@ -30,3 +47,28 @@ int main() {
     return 0;
 }
 ```
+
+```c
+//Wap to display all numbers between 1 to 50 using for loop
+
+#include <stdio.h>
+
+int main() {
+
+    for (int i = 1; i <= 50; i++) {
+        printf("%d\t", i);
+    }
+    
+    return 0;
+}
+```
+
+
+## Assignment
+
+- Write a program to display your name 5times using while loop
+- write a program to print first 10 natural number
+- Wap to print difference between for & while loop
+- Wap to print all number between 1 to 1000.
+
+
