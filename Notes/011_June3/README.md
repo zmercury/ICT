@@ -17,7 +17,7 @@ while(condition) {
 ```
 
 ```c
-//Print colz name 100 times using loop!
+//Print colz name 100 times using loop! - Biraj Lamichhane
 
 #include <stdio.h>
 
