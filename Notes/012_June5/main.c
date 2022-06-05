@@ -4,9 +4,9 @@ int main() {
     int i = 1;
 
     do {
-        printf("%d. Sano Thimi Campus\n", i);
+        printf("%d. Jupiter\n", i);
         i++;
-    } while (i <= 10);
+    } while (i <= 5);
 
     return 0;
 };
