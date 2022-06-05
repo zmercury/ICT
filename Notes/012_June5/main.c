@@ -1,12 +1,12 @@
 #include <stdio.h>
 
 int main() {
-    int i = 1;
+    int i = 1000;
 
     do {
-        printf("%d. Jupiter\n", i);
-        i++;
-    } while (i <= 5);
+        printf("%d\n", i);
+        i--;
+    } while (i >= 900);
 
     return 0;
 };
