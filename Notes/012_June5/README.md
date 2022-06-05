@@ -26,7 +26,18 @@ Although the condition is not true, the loop runs once because it is a post test
 1. Write a program to display your name 5times using do... while loop
 
 ```c
+#include <stdio.h>
 
+int main() {
+    int i = 1;
+
+    do {
+        printf("%d. Jupiter\n", i);
+        i++;
+    } while (i <= 5);
+
+    return 0;
+};
 ```
 
 
