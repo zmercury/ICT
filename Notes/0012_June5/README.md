@@ -15,7 +15,7 @@ do {
     increment/decrement;
 } while(condition);
 ```
-
+> Note: The do... while executes at lease once if condition is false at beginning of loop. 
 
 
 
