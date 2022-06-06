@@ -1,6 +1,6 @@
 #### 5th June
 
-### ICT
+### Programming
 
 #### Do While loop:
 
