@@ -1,10 +1,3 @@
-#### June 7
-
-## Programming
-
-1. Wap to display sum of all numbers from 1 to 10.
-
-``` c
 #include <stdio.h>
 
 int main() {
@@ -15,4 +8,3 @@ int main() {
     printf("The sum of all numbers from 1 to 10 is %d\n", sum);
     return 0;
 }
-```
