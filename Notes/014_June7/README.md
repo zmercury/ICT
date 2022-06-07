@@ -34,7 +34,7 @@ int main() {
 }
 ```
 
-2. Wap to find the sum of all the odd numbers from 10 to 20
+3. Wap to find the sum of all the odd numbers from 10 to 20
 
 ``` c
 #include <stdio.h>
@@ -52,7 +52,26 @@ int main() {
 }
 ```
 
-3. Wap to find the sum of all odd and even numbers from 10 to 20
+4. Wap to enter any number and display its multiplication table
+
+```c
+#include <stdio.h>
+
+int main() {
+    int number,i,mul;
+
+    printf("Enter any number: ");
+    scanf("%d", &number);
+
+    for (i = 1; i <= 10; i++) {
+        mul = i * number;
+        printf("%d x %d = %d\n", number, i, mul);
+    }
+    return 0;
+}
+```
+
+5. Wap to find the sum of all odd and even numbers from 10 to 20
 
 ```c
 #include <stdio.h>
@@ -71,7 +90,7 @@ int main() {
     
     printf("The sum of all even numbers is %d\n", sumOfEven);
     printf("The sum of all odd numbers is %d\n", sumOfOdd);
-    
+
     return 0;
 }
 ```

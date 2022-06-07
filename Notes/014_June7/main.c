@@ -1,19 +1,15 @@
 #include <stdio.h>
 
 int main() {
-    int sumOfEven = 0;
-    int sumOfOdd = 0;
+    int number,i,mul;
 
-    for (int i = 10; i <= 20; i++) {
-        if(i%2==0) {
-            sumOfEven = sumOfEven + i;
-        } else {
-            sumOfOdd = sumOfOdd + i;
-        }
+    printf("Enter any number: ");
+    scanf("%d", &number);
+
+    for (i = 1; i <= 10; i++) {
+        mul = i * number;
+        printf("%d x %d = %d\n", number, i, mul);
     }
-    
-    printf("The sum of all even numbers is %d\n", sumOfEven);
-    printf("The sum of all odd numbers is %d\n", sumOfOdd);
     return 0;
 }
 
