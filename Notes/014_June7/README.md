@@ -1,5 +1,10 @@
 #### June 7
 
+## ICT
+
+For question 👉[Click Here](https://github.com/zmercury/ICT/tree/main/Notes/014_June7/Questions%20(Microsoft%20Word))👈
+For Offer Letter Assignment 👉[Click Here](https://github.com/zmercury/ICT/tree/main/Notes/014_June7/Offer%20Letter%20(MS%20Word))👈
+
 ## Programming
 
 1. Wap to display sum of all numbers from 1 to 10.
