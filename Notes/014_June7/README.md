@@ -46,7 +46,7 @@ int main() {
         if(i%2!=0) {
             sum = sum + i;
         }
-    }
+    } 
     printf("The sum of all even numbers is %d\n", sum);
     return 0;
 }
