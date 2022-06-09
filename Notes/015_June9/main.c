@@ -3,12 +3,12 @@
 #include <stdio.h>
 
 int main() {
-    int fact=1, i, num;
+    int fact=1, num;
 
     printf("Enter any number: ");
     scanf("%d", &num);
 
-    for (i = 1; i <= num; i++) {
+    for (int i = 1; i <= num; i++) {
         fact = fact * i;
     }
 

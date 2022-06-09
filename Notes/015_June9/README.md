@@ -2,6 +2,8 @@
 
 ### Programming
 
+1. WAP to enter any number and display its factorial
+
 ```c
 #include <stdio.h>
 
