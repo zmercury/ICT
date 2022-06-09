@@ -1,19 +1,18 @@
+//wap to enter any number and display its factorial
+
 #include <stdio.h>
 
 int main() {
-    int sumOfEven = 0;
-    int sumOfOdd = 0;
+    int fact=1, i, num;
 
-    for (int i = 1; i <= 10; i++) {
-        if(i%2==0) {
-            sumOfEven = sumOfEven + i;
-        } else {
-            sumOfOdd = sumOfOdd + i;
-        }
+    printf("Enter any number: ");
+    scanf("%d", &num);
+
+    for (i = 1; i <= num; i++) {
+        fact = fact * i;
     }
-    
-    printf("The sum of all even numbers is %d\n", sumOfEven);
-    printf("The sum of all odd numbers is %d\n", sumOfOdd);
+
+    printf("The factorial of %d is %d", num, fact);
 
     return 0;
 }
