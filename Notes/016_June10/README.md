@@ -45,8 +45,85 @@ int main() {
         }
         printf("Sum = %d",sum);       
     } else {
-        printf("Enter a four digit number!");
+        printf("Please enter a four digit number!");
     }
+
+    return 0;  
+}      
+```
+
+3. wap to enter any number and display the sum of its even digit
+
+
+```c
+#include <stdio.h>
+
+int main() {
+
+    int n,sum=0,m;  
+
+    printf("Enter a number:");    
+    scanf("%d",&n);    
+
+    while(n>0) {    
+        m=n%10;   
+        if( m % 2 == 0) {
+            sum=sum+m;    
+        } 
+        n=n/10;    
+    }
+    
+    printf("Sum = %d",sum);       
+
+    return 0;  
+}      
+```
+
+4. Wap to enter any number & display sum of its odd digit
+
+``` c
+#include <stdio.h>
+
+int main() {
+
+    int n,sum=0,m;  
+
+    printf("Enter a number:");    
+    scanf("%d",&n);    
+
+    while(n>0) {    
+        m=n%10;   
+        if( m % 2 != 0) {
+            sum=sum+m;    
+        } 
+        n=n/10;    
+    }
+    
+    printf("Sum = %d",sum);       
+
+    return 0;  
+}      
+```
+
+5. wap to enter any number and display it in reverse order
+
+```c
+#include <stdio.h>
+
+int main() {
+
+    int n,sum=0,m;  
+
+    printf("Enter a number:");    
+    scanf("%d",&n);    
+
+    while(n>0) {    
+        m=n%10;   
+        sum=sum*10+m;     
+        n=n/10;    
+    }
+    
+    printf("%d",sum);       
 
     return 0;  
 }      
