@@ -100,10 +100,21 @@ Computer network
 > Network also provides the function of backup.
 ```
 
-### Disadvantafes of Computer Network
+### Components of Computer Network
 
 ```md
-> 
+> Hardware
+Computer 
+Network Connecting devices
+> Software component
+Network OS 
+Network Protocals
 ```
 
+### Types of Computer Network
 
+1. Lan (Local Area Network)
+1. Man (Metropolitian Area Network)
+1. Wan (Wide Area Network)
+
+### 
