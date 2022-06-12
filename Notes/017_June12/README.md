@@ -26,7 +26,7 @@ int main() {
 }   
 ```
 
-2. Wap to find if a number is palindrome or not
+2. Wap to enter any number and check if it is palindrome or not
 
 ```c
 #include<stdio.h> 
@@ -45,7 +45,7 @@ int main() {
     }
 
     if(temp==sum) {
-        printf("%d is a Palindrome number!", temp);    
+        printf("%d is a palindrome number!", temp);    
     } else {
         printf("%d is not palindrome number!", temp);   
     }    
