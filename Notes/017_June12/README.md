@@ -101,11 +101,11 @@ Computer network
 ### Components of Computer Network
 
 -  Hardware
-Computer 
-Network Connecting devices
--  Software component
-Network OS 
-Network Protocals
+    1. Computer 
+    2. Network Connecting devices
+-   Software component
+    1. Network OS 
+    2. Network Protocals
 
 ### Types of Computer Network
 
@@ -113,4 +113,8 @@ Network Protocals
 1. Man (Metropolitian Area Network)
 1. Wan (Wide Area Network)
 
-### 
+### Network Architechture
+
+1. Client-Server Network Architecture
+1. Peer-to-peer Network
+
