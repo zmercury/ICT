@@ -5,7 +5,7 @@
 1. Wap to enter any number and display its reverse order
 
 ```c
-#include <stdio.h>
+#include <stdio.h- 
 
 int main() {
     int n, sum = 0, m;
@@ -84,32 +84,28 @@ int main() {
 Computer network
 
 
-``` md
-> Clients: Clients are the network comouters on which user run applications. They are less powerfull, less processing speed and less storage capacity than server. Usually they are dependent to the server and request to the server to get information.
-> Server: 
-> Node: Node is any active electronic device that is attached to a network and can receive, generate, process or forward information iver a communication channel. Example modem, hub, bridge or switch etc.
-```
+-  Clients: Clients are the network comouters on which user run applications. They are less powerfull, less processing speed and less storage capacity than server. Usually they are dependent to the server and request to the server to get information.
+- Server: 
+- Node: Node is any active electronic device that is attached to a network and can receive, generate, process or forward information iver a communication channel. Example modem, hub, bridge or switch etc.
 
 ### Advantages of Computer network
 
-```md
-> A network connected computer can easily share info with other computer
-> Network on a computer can share peripheral devices like printer, hard disk etc.
-> It can share software between member workstations; therefore it saves money for not buying multiple copies of system or programs. 
-> Network helps to keep info reliable and up to date.
-> Network also provides the function of backup.
-```
+
+- A network connected computer can easily share info with other computer
+- Network on a computer can share peripheral devices like printer, hard disk etc.
+- It can share software between member workstations; therefore it saves money for not buying multiple copies of system or programs. 
+- Network helps to keep info reliable and up to date.
+- Network also provides the function of backup.
+
 
 ### Components of Computer Network
 
-```md
-> Hardware
+-  Hardware
 Computer 
 Network Connecting devices
-> Software component
+-  Software component
 Network OS 
 Network Protocals
-```
 
 ### Types of Computer Network
 
