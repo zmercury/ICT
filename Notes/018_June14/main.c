@@ -1,21 +1,21 @@
 #include<stdio.h>
-
 int main()
 {
-    int a, sum=0, i;
-
-    printf("Enter any positive number");
+    int a, sum = 0, i;
+    printf("Enter any number\t");
     scanf("%d", &a);
-    
     if(a>0){
-        for (i = 0; i <=a; i++){
+        for ( i = 1; i <=a; i++)
+        {
             if(a%i==0){
-                sum = sum + i;
+                printf("%d\t", i);
+                // sum = sum + i;
             }
-            printf("The sum of the factors %d is %d ", a, sum);
-            }
-    } else {
-        printf("Enter the positive number");
+        }
+      //  printf("The sum of the factors of %d is %d", a, sum);
+    }else {
+        printf("Please enter the positve number");
     }
     return 0;
 }
+
