@@ -1,21 +1,24 @@
-#include<stdio.h>
-int main()
-{
-    int a, sum = 0, i;
-    printf("Enter any number\t");
-    scanf("%d", &a);
-    if(a>0){
-        for ( i = 1; i <=a; i++)
-        {
-            if(a%i==0){
-                printf("%d\t", i);
-                // sum = sum + i;
-            }
-        }
-      //  printf("The sum of the factors of %d is %d", a, sum);
-    }else {
-        printf("Please enter the positve number");
-    }
-    return 0;
-}
+#include<stdio.h>  
 
+int main() {    
+    int number,n,sum=0,temp;
+
+    printf("Enter any number: ");
+    scanf("%d",&number);    
+
+    temp=number;
+
+    while(number>0){    
+        n=number%10;    
+        sum=sum+(n*n*n);    
+        number=number/10;    
+    }
+
+    if(temp==sum){
+        printf("%d is an armstrong  number", temp);    
+    } else {
+        printf("%d is not armstrong number", temp);    
+    }    
+
+    return 0;  
+}   
