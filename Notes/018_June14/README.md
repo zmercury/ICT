@@ -28,7 +28,7 @@ int main() {
 } 
 ```
 
-```c
+<!-- ```c
 #include<stdio.h>
 int main()
 {
@@ -51,8 +51,9 @@ int main()
     }
         return 0;
 }
-```
+``` -->
 
+2. Wap to enter a number and find the sum of its factors
 
 ```c
 #include <stdio.h>
@@ -77,7 +78,9 @@ int main() {
 }
 ```
 
-```c
+
+
+<!-- ```c
 
 // me - Biraj solved
 
@@ -129,4 +132,4 @@ int main()
 }
 
 
-```
+``` -->
