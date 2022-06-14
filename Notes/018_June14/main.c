@@ -1,23 +1,21 @@
-//Wap to input any number and check if it is prime or composite.
+#include<stdio.h>
 
-#include <stdio.h>
+int main()
+{
+    int a, sum=0, i;
 
-int main() {
-    int number,inc,i;
-
-    printf("Enter a number: ");
-    scanf("%d", &number);
-
-    for (i = 1; i <= number; i++) {
-        if(number%i==0) {
-            inc = inc + 1;
-        }
-    }
-    if(inc == 2) {
-        printf("%d is prime number!", number);
+    printf("Enter any positive number");
+    scanf("%d", &a);
+    
+    if(a>0){
+        for (i = 0; i <=a; i++){
+            if(a%i==0){
+                sum = sum + i;
+            }
+            printf("The sum of the factors %d is %d ", a, sum);
+            }
     } else {
-        printf("%d is composite number!", number);
+        printf("Enter the positive number");
     }
-
     return 0;
-} 
+}
