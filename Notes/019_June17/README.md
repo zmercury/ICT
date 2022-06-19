@@ -3,6 +3,33 @@
 ## Programming
 
 
+#### Nested Loop
+- The loop inside of a loop is known as Nested Loop
+- The inside loop is known as inner loop
+
+> Syntax
+
+```c
+for(initilization; condition; inc/dec;) {
+    body of first loop;
+    for(initilization; condition; inc/dec) {
+        body of inner loop;
+    }
+}
+```
+or
+```c
+for(int i = 0; i <= 10; i++;) {
+    for(int j = 0; j <= 10; j++;) {
+        statement;
+    }
+}
+```
+
+
+
+
+
 ### Assignment
 
 1. Wap to display all the prime numbers between 1 and 100
