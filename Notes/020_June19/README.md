@@ -75,3 +75,13 @@ int main() {
 }
 ```
 
+### Assignment
+
+Difference between Break and Continue Statement
+
+|Break Statement| Continue Statement|
+|---| ---|
+|The Break statement is used to exit from the loop constructs.| The continue statement is not used to exit from the loop constructs.| 
+|The break statement is usually used with the switch statement, and it can also use it within the while loop, do-while loop, or the for-loop.|The continue statement is not used with the switch statement, but it can be used within the while loop, do-while loop, or for-loop.| 
+|When a break statement is encountered then the control is exited from the loop construct immediately.| When the continue statement is encountered then the control automatically passed from the beginning of the loop statement.|
+| Syntax: break;| Syntax: continue;|
