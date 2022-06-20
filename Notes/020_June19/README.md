@@ -2,7 +2,7 @@
 
 ## Programming
 
-//Wap to display armstrong number from 1 to 1000
+Wap to display armstrong number from 1 to 1000
 
 ```c
 #include <stdio.h>
