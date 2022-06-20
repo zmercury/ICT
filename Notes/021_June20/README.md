@@ -15,3 +15,11 @@ Function is a block of code which perform some task when it is called. It helps 
 There are two types of functions in c.
 - Library Function: Library Function ate those functions which are already presented in c library. Library function cannot be used as user defined function. The function of library finction is already defined in c.
 - User Defined Function: Those function which are declared by the user are known as user defined Function. The task of thses functions are determined bt the user.
+
+Function Aspects
+-
+
+- Function Declaration
+- Function call
+- Function Defination
+
