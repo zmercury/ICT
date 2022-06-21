@@ -20,6 +20,26 @@ Function Aspects
 -
 
 - Function Declaration
+
+    - Giving the name of a function, data type of functiin and parameter/variables.
+    
+    - Syntax
+
+    ```c
+    #include <stdio.h>
+    int area ( int length, int breath );
+
+    int main() {
+        area();
+    }
+
+    int area() {
+        statement;
+    }
+    ```
+    - eg: int area(int, int);
+
+
 - Function call
 - Function Defination
 
