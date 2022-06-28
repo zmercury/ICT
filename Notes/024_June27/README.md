@@ -20,8 +20,6 @@ int main() {
 }
 
 int average(int a, int b, int c) {
-    int ans;
-    ans = (a + b + c) / 3;
-    return ans;
+    return (a + b + c) / 3;
 }
 ```
