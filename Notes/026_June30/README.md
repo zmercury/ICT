@@ -97,5 +97,46 @@ int isPrimeComposite(int number) {
 ### Assignment
 
 1. Wap to enter any number and check if it is armstrong or not
-1. Wap to enter any number and display sum of its digits 
-1. Wap to entar any number and check if it is palindrome or not
+
+```c
+#include <stdio.h>
+int checkArmstrong(int);
+
+int main() {
+    int num;
+
+    printf("Enter a number: ");
+    scanf("%d", &num);
+
+    checkArmstrong(num);
+
+    return 0;
+}
+
+int checkArmstrong(int num) {
+    int originalNum, remainder, result = 0;
+
+    originalNum = num;
+
+    while (originalNum != 0) {
+        remainder = originalNum % 10;
+       result += remainder * remainder * remainder;
+       originalNum /= 10;
+    }
+
+    if (result == num)
+        printf("%d is an Armstrong number", num);
+    else
+        printf("%d is not an Armstrong number", num);
+
+    return 0;
+}
+```
+
+2. Wap to enter any number and display sum of its digits 
+3. Wap to entar any number and check if it is palindrome or not
+
+
+
+
+
