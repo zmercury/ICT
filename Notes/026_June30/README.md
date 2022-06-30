@@ -134,8 +134,76 @@ int checkArmstrong(int num) {
 ```
 
 2. Wap to enter any number and display sum of its digits 
+
+```c
+#include <stdio.h>
+int addDigit(int);
+
+int main()
+{
+    int n;
+
+    printf("Enter any number: ");
+    scanf("%d", &n);
+
+    addDigit(n);
+
+    return 0;
+}
+
+int addDigit(int n) {
+    int t, sum = 0, remainder;
+
+    t = n;
+
+    while (t != 0) {
+        remainder = t % 10;
+        sum = sum + remainder;
+        t = t / 10;
+    }
+
+    printf("Sum of digits of %d = %d\n", n, sum);
+
+    return 0;
+}
+```
+
 3. Wap to entar any number and check if it is palindrome or not
 
+```c
+#include <stdio.h>
+int checkPalindrome(int);
+
+int main() {
+    int n;
+
+    printf("Enter an integer: ");
+    scanf("%d", &n);
+
+    checkPalindrome(n);
+
+    return 0;
+}
+
+int checkPalindrome(int n) {
+    int reversed = 0, remainder, original;
+
+    original = n;
+
+    while (n != 0) {
+        remainder = n % 10;
+        reversed = reversed * 10 + remainder;
+        n /= 10;
+    }
+
+    if (original == reversed)
+        printf("%d is a palindrome", original);
+    else
+        printf("%d is not a palindrome", original);
+
+    return 0;
+}
+```
 
 
 
