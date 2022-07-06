@@ -2,6 +2,7 @@
     "files.associations": {
         "*.ejs": "html",
         ".ejs": "html",
-        "stdio.h": "c"
+        "stdio.h": "c",
+        "cmath": "c"
     }
 }
