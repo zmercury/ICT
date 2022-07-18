@@ -1,21 +1,28 @@
 #include <stdio.h>
 
-int main(int argc, char const *argv[])
-{
-    int n,a[100], i, sum=0;
+int main (){
+    int num[20];
+    int i, j, a, n;
 
-    printf("Enter any number: ");
+    printf("Enter number of elements in an array\n");
     scanf("%d", &n);
 
-    for (i = 0; i < n; i++){
-        printf("Enter %d numbers: ", i+1);
-        scanf("%d", &a[i]);
-    }
-    for (i = 0; i < n;i++){
-        sum +=  a[i];
-    }
+    printf("Enter the elements\n");
 
-    printf("The sum of all the numbers is %d", sum);
-    
-    return 0;
+    for (i = 0; i < n; ++i) {
+        scanf("%d", &num[i]);
+    }
+    for (i = 0; i < n; ++i){
+        for (j = i + 1; j < n; ++j){
+            if (num[i] > num[j]){
+                a = num[i];
+                num[i] = num[j];
+                num[j] = a;
+            }
+        }
+    }
+    printf("The numbers in ascending order is:\n");
+    for (i = 0; i < n; ++i){
+        printf("%d  ", num[i]);
+    }
 }
