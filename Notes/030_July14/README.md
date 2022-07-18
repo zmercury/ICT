@@ -77,3 +77,30 @@ int main() {
     return 0;
 }
 ```
+
+### Assignment
+
+1. Wap to enter age of 20 students and display the smallest 
+1. Wap to enter due fee of 15 students and count numbners of students having due fee greater than 2500 and less then 5000
+
+```c
+#include <stdio.h>
+
+int main() {
+  int fee[10], count=0;
+  
+  for(int i=1; i<=10; i++) {
+    printf("Enter the due fee of %d student: ", i);
+    scanf("%d", &fee[i]);
+  }
+
+  for(int i=1; i<=10; i++) {
+    if(fee[i]>=2500 && fee[i]<=5000) {
+      count++;
+    }
+  }
+  printf("The number of student with due amount between 3500 and 5000 is %d", count);
+
+  return 0;
+}       
+```
