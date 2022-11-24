@@ -32,7 +32,7 @@ int main ()
 
 #### Flowchart
 
-![](/assignment//pic//1.png)
+![](https://github.com/zmercury/ICT/blob/main/assignment/pic/1.png?raw=true)
 
 
 #### 2. To find the square of a number
@@ -66,7 +66,9 @@ int main (int argc, char *argv[])
 
 #### Flowchart
 
-![](/assignment//pic//2.png)
+![](https://github.com/zmercury/ICT/blob/main/assignment/pic/2.png?raw=true)
+
+
 
 #### 3. To print sum, subtract, product and quotient of two numbers 32 and 8.
 
@@ -97,7 +99,8 @@ int main (int argc, char *argv[])
 
 #### Flowchart
 
-![](/assignment//pic//3.png)
+![](https://github.com/zmercury/ICT/blob/main/assignment/pic/3.png?raw=true)
+
 
 #### 4. Enter two numbers and print sum, difference, product and division of both number.
 
@@ -136,7 +139,7 @@ int main (int argc, char *argv[])
 ```
 #### Flowchart
 
-![](/assignment//pic//4.png)
+![](https://github.com/zmercury/ICT/blob/main/assignment/pic/4.png?raw=true)
 
 
 #### 5. Write a program to calculate total amount of (p) kept in bank for (n) years at the rate of (r) simple interest per annum.
@@ -173,7 +176,7 @@ int main (int argc, char *argv[])
 ```
 #### Flowchart
 
-![](/assignment//pic//5.png)
+![](https://github.com/zmercury/ICT/blob/main/assignment/pic/5.png?raw=true)
 
 
 
@@ -212,7 +215,7 @@ int main (int argc, char *argv[])
 
 #### Flowchart
 
-![](/assignment//pic//6.png)
+![](https://github.com/zmercury/ICT/blob/main/assignment/pic/6.png?raw=true)
 
 #### 7. Input three numbers and print sum and average.
 
@@ -244,8 +247,7 @@ int main (int argc, char *argv[])
 ```
 #### Flowchart
 
-![](/assignment//pic//7.png)
-
+![](https://github.com/zmercury/ICT/blob/main/assignment/pic/7.png?raw=true)
 
 
 #### 8. Write an algorithm, flowchart and C program to calculate the volume of a pool. The equation for determine the volume =length x depth x width. Assume that the pool has a length of 25 feet width of 10 feet and depth 6 feet. 
@@ -276,7 +278,7 @@ int main()
 ```
 #### Flowchart
 
-![](/assignment//pic//8.png)
+![](https://github.com/zmercury/ICT/blob/main/assignment/pic/8.png?raw=true)
 
 
 #### 9. Write an algorithm and program to input length and breath of a room, calculate, and print its area and perimeter.
@@ -314,7 +316,7 @@ int main()
 ```
 #### Flowchart
 
-![](/assignment//pic//9.png)
+![](https://github.com/zmercury/ICT/blob/main/assignment/pic/9.png?raw=true)
 
 
 #### 10. Write a program to read the radius of a sphere and complete its surface area and volume
@@ -350,7 +352,7 @@ int main()
 
 #### Flowchart
 
-![](/assignment//pic//10.png)
+![](https://github.com/zmercury/ICT/blob/main/assignment/pic/10.png?raw=true)
 
 
 #### 11. Write a program to input temprature in Celcius and to print its fahrenheit eq.
@@ -382,7 +384,7 @@ int main()
 
 #### Flowchart
 
-![](/assignment//pic//11.png)
+![](https://github.com/zmercury/ICT/blob/main/assignment/pic/11.png?raw=true)
 
 
 #### 12. Write a program to read base and altitude of a triangle and prints its area.
@@ -414,7 +416,7 @@ int main()
 
 #### Flowchart
 
-![](/assignment//pic//12.png)
+![](https://github.com/zmercury/ICT/blob/main/assignment/pic/12.png?raw=true)
 
 
 #### 13. Write a program to enter number of days and convert it into years, months and days
@@ -451,4 +453,4 @@ int main()
 
 #### Flowchart
 
-![](/assignment//pic//13.png)
+![](https://github.com/zmercury/ICT/blob/main/assignment/pic/13.png?raw=true)
